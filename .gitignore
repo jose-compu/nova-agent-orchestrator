@@ -1,0 +1,14 @@
+.file_search_cache.json
+.recent_file_paths.json
+.env
+.venv/
+.nova_memory.json
+__pycache__/
+.pytest_cache/
+*.pyc
+*.mp3
+*.mp4
+*.wav
+*.avi
+*.mkv
+*.mov
