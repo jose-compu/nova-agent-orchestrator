@@ -1,4 +1,4 @@
-# Nova Speech-to-Speech Assistant
+# Nova Agent Orchestrator
 
 **A hackathon project built on AWS Nova: one assistant that talks, searches, remembers, and controls your machine.**
 
