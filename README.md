@@ -1,6 +1,16 @@
-# Nova Agent Orchestrator
+<div align="center">
+  <img src="nova.png" alt="Nova Agent Orchestrator" width="120">
+  <h1>Nova Agent Orchestrator</h1>
+  <p><strong>A hackathon project built on AWS Nova: one assistant that talks, searches, remembers, and controls your machine.</strong></p>
 
-**A hackathon project built on AWS Nova: one assistant that talks, searches, remembers, and controls your machine.**
+  [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://python.org)
+  [![AWS Nova](https://img.shields.io/badge/AWS%20Nova-2%20Lite%20%7C%20Sonic-FF9900?logo=amazon-aws&logoColor=white)](https://aws.amazon.com/ai/)
+  [![Tests](https://img.shields.io/badge/Tests-46%20passing-brightgreen?logo=pytest&logoColor=white)]()
+  [![License](https://img.shields.io/badge/License-Proprietary-lightgrey.svg)](LICENSE)
+  [![macOS](https://img.shields.io/badge/macOS-Supported-000000?logo=apple&logoColor=white)]()
+  [![Voice](https://img.shields.io/badge/Voice-TTS%20%7C%20Sonic-9cf?logo=microphone&logoColor=white)]()
+  [![Web Search](https://img.shields.io/badge/Web%20Search-Grounded-informational?logo=google&logoColor=white)]()
+</div>
 
 ---
 
