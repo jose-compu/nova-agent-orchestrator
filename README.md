@@ -43,6 +43,11 @@ source .venv/bin/activate   # or .venv\Scripts\activate on Windows
 pip install -r requirements.txt
 
 # Env (required for Nova and optional for Sonic TTS)
+# Option 1: Copy .env.example to .env and add your key there
+cp .env.example .env
+# Then edit .env and add: NOVA_API_KEY=your-key
+
+# Option 2: Export directly in your shell
 export NOVA_API_KEY="your-key"
 
 # GUI (default)

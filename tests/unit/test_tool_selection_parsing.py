@@ -41,7 +41,11 @@ def test_parse_empty_or_garbage_defaults_answer():
 
 
 def test_valid_choices():
-    assert VALID_CHOICES == frozenset({"answer", "web_search", "plan_then_act", "store_memory"})
+    assert VALID_CHOICES == frozenset({
+        "answer", "web_search", "plan_then_act", "store_memory",
+        "remove_memory", "update_memory", "local_file_search", "open_file",
+        "search_skills", "load_skill", "stop_playback"
+    })
 
 
 def test_parse_store_memory():

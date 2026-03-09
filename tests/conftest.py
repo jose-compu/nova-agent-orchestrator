@@ -1,23 +1,24 @@
 """Shared pytest fixtures for Nova assistant tests."""
 import os
+from typing import Optional
 
 import pytest
 
 
-def _get_api_key() -> str | None:
+def _get_api_key() -> Optional[str]:
     from dotenv import load_dotenv
     load_dotenv()
     return os.environ.get("NOVA_API_KEY") or None
 
 
 @pytest.fixture(scope="session")
-def nova_api_key() -> str | None:
+def nova_api_key() -> Optional[str]:
     """NOVA_API_KEY from env (or .env). None if not set."""
     return _get_api_key()
 
 
 @pytest.fixture(scope="session")
-def require_nova_api_key(nova_api_key: str | None) -> str:
+def require_nova_api_key(nova_api_key: Optional[str]) -> str:
     """Raise if NOVA_API_KEY not set; otherwise return it."""
     if not nova_api_key or not nova_api_key.strip():
         pytest.skip("NOVA_API_KEY not set; set it to run integration/e2e tests")
