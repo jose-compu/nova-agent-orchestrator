@@ -12,8 +12,7 @@
   [![Web Search](https://img.shields.io/badge/Web%20Search-Grounded-informational?logo=google&logoColor=white)]()
 </div>
 
-  [Video Title](https://img.youtube.com/vi/PQJ_GLtONXU/0.jpg)](https://www.youtube.com/watch?v=PQJ_GLtONXU)
-VIDEO DEMO
+[![Video Title](https://img.youtube.com/vi/PQJ_GLtONXU/0.jpg)](https://www.youtube.com/watch?v=PQJ_GLtONXU)
 
 ---
 
